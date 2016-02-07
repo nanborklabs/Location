@@ -37,9 +37,18 @@ import static nanborklabs.location.MyLocationHandler.*;
 
 public class MapHomeActivity extends AppCompatActivity implements OnMapReadyCallback, Mapupdate {
 
+    //this is just  Formal code,changing class as features increasing
+    //
+
+
+
+//string tag
     public static String RUNTITME = "RUNNING";
+    //string to sotore username,collge,bus route
 
     String uname, cname, rname;
+
+    //shared prefs file name
     public static String PREFS = "MyPrefs";
     private GoogleMap gMap;
     private MapFragment mapFragment;
