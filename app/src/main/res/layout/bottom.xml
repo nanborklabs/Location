@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bottomtext"
+    android:padding="2dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Est. Arrival time: "
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="fill"
+        android:gravity="fill_vertical|center_horizontal"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vehicle prog."
+        android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:gravity="fill_vertical|center_horizontal"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+
+
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="fill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="00hh:55mm "
+        android:id="@+id/textView4"
+        android:gravity="fill_vertical|center_horizontal"
+        android:layout_row="1"
+
+        android:textColor="#FFFFFF"
+        android:layout_column="0"
+        android:layout_gravity="fill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="60%"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3"
+        android:gravity="fill_vertical|center_horizontal"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill" />
+
+
+</GridLayout>
